@@ -1,0 +1,22 @@
+body {
+  background-color: aqua;
+}
+
+form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form div {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  padding: 10px 15px;
+  width: 100px;
+  background-color: blue;
+  border: none;
+  color: white;
+}
